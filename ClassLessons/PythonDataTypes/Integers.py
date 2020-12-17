@@ -1,18 +1,19 @@
 items = 4
 price = 19.97
-total = items * price  # Multplication
+total = items * price
 print(total)  # 79.88
 
 
-# # Price as string  == DO NOT USE!!!!!!!!
-# items = 4
-# price = "19.97"
-# total = items * price
-# print(total)  # 19.97  19.97  19.97  19.97
+items = 4
+price = "19.97"  
+total = items * price
+print(total)  # 19.9719.9719.9719.97
 
 
-# word = "Na"
-# print(word * 10)  # NaNaNaNaNaNaNaNaNaNa
+word = "NA"
+print(word * 10)  # NANANANANANANANANANA
 
 
-print(1_000_000_000_000)
+print("I can code!")  # I can code!
+
+print("1_000_000_000_000")  # 1_000_000_000_000
