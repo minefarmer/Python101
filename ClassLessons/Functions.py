@@ -42,21 +42,21 @@
 # somename()
 
 
-# def somename(name=None, food="Pizza"):
-#     if name is None:
-#         name = "Zephyer" 
+def somename(name=None, food="Pizza"):
+    if name is None:
+        name = "Zephyer" 
 
-#     person_type = "human"
-#     if name == "Zephyer":
-#         person_type = "Cat"
+    person_type = "human"
+    if name == "Zephyer":
+        person_type = "Cat"
 
-#     print(person_type)   # Cat
+    print(person_type)   # Cat
 
-#     print(f"Hello {name}. Let's eat some {food}.")  # Hello Zephyer. Let's eat some Pizza.
+    print(f"Hello {name}. Let's eat some {food}.")  # Hello Zephyer. Let's eat some Pizza.
 
-# some_var = somename()
+some_var = somename()
 
-# print("The variable is ", some_var)  # The variable is  None
+print(f"The variable is ", some_var)  # The variable is  None
 
 
 # def somefunction():
@@ -66,9 +66,9 @@
 # print(thing)  # a value
 
 
-def exp(num1, num2):
-    total = num1 ** num2   
-    return total
+# def exp(num1, num2):
+#     total = num1 ** num2   
+#     return total
 
-big_number = exp(33, 6)
-print(big_number)  # 1291467969
+# big_number = exp(33, 6)
+# print(big_number)  # 1291467969
