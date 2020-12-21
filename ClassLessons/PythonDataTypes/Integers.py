@@ -16,4 +16,4 @@ print(word * 10)  # NANANANANANANANANANA
 
 print("I can code!")  # I can code!
 
-print("1_000_000_000_000")  # 1_000_000_000_000
+print(1_000_000_000_000)  # 1_000_000_000_000
