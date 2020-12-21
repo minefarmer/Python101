@@ -1,0 +1,36 @@
+Starting a local server with python
+
+rich@dell-lmde:~/CarlsHub/Python101/ClassLessons$ python3 -m http.server
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+
+{% comment %} In browser, type -----   localhost:8000
+
+Gives This:
+
+Directory listing for /
+.vscode/
+AcceptingUserInput.py
+Comparision_operators.py
+comparison_shortcuts.py
+ForLoops.py
+Functions.py
+LocalServer.txt
+multiple_comparision_operators.py
+PythonDataTypes/
+Scope.py
+StringFormating.py
+TypeCasting.py
+Variables.py
+WhileLoops.py {% endcomment %}
+
+after creating a html file    In browser, type -----   localhost:8000
+
+Gives This:
+
+Welcome to Python 101
+
+
+CHECK OUT: ngrok.com
+
+
+Control-c to cancel
