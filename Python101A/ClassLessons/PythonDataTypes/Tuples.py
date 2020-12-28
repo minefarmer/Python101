@@ -32,6 +32,6 @@
 
 foods = ('Pizza', 'Fish', 'Tomatoes',)
 for food in foods:
-    print("The food is", food)  # ('The food is', 'Pizza')
+    print(f"The food is", food)  # ('The food is', 'Pizza')
                                 # ('The food is', 'Fish')
                                 # ('The food is', 'Tomatoes')
